@@ -59,6 +59,7 @@
 
 .play {
     position: absolute;
+    cursor: pointer;
 }
 
 .time-select button:hover {
