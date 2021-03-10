@@ -21,6 +21,7 @@ const app = () => {
     sounds.forEach(sound => {
         sound.addEventListener('click', function() {
             //Изменяем путь до музыки и видео
+            play.src = './svg/play.svg';
             song.src = this.getAttribute('data-sound');
             video.src = this.getAttribute('data-video');
             // checkPlaying(song);
